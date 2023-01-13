@@ -1,0 +1,39 @@
+ <div className='row'>
+       <div className='col-6'>
+        <img src={ist} style={{height:800,width:'100%'}}/>
+       </div>
+    <div className='col-6'>
+        <div className='row justify-content-center'>
+        <div className='test1'>
+        <h6>SIGN IN with :</h6>
+        </div>
+            <div className='col-6 test'>
+          
+            <TextField className='col-12' id="filled-basic" type='email' label="Email" required variant="filled" />
+            <TextField className='col-12' id="filled-basic" type='password' label="password" required variant="filled" style={{marginTop:'10px'}} />
+            <div class="form-check">
+              <div style={{marginTop:'10px'}}>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+            <label class="form-check-label" for="flexCheckDefault">
+            Remember me
+            </label>
+              </div>
+            
+          </div>
+          <div class="row justify-content-center mt-3 mb-5">
+          <div className='d-grid gap-2 col-md-6 col-sm-12'>
+          <button type='submit' className='btn btn-primary bynstyle'>LOGIN</button>
+          <button type='submit' className='btn btn-primary bynstyle'>SIGNUP</button>
+        
+          </div>
+        
+      </div>
+            </div>
+           
+        
+
+
+        </div>
+        </div>
+       
+    </div>

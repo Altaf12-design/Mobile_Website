@@ -1,0 +1,70 @@
+
+.col-8{
+ 
+ 
+ }
+
+.bw {
+    margin-bottom: 10px;
+    width: 300px;
+    margin-left: 100px;
+    
+}
+.bg{
+    
+    background-color: #484b5a81;
+    
+}
+.bg1{
+    background-color: rgb(70, 68, 66);
+
+    
+}
+
+.allbutton{
+   width: 80%;
+   margin-left: 10px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+
+}
+
+/* .p-4:hover{
+  background-color: red;
+  
+ 
+ } */
+
+
+.pcolor{
+    
+}
+
+.ptage{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    
+}
+
+.Nothingdiv{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Nothing{
+   font-size: 50px;
+   font-style: italic;
+   
+   
+}
+
+.card{
+    width: 10%;
+    height: 300px;
+    
+}

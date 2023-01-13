@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+:root{
+    --primary-white:#fff;
+    --primary-orange:rgb(219, 74, 16);
+}
+
+body{
+    font-family: 'Roboto Condensed' sans-serif;
+}
+
+nav a.nav-link{
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+}
+
+
+nav ul li {
+    text-transform:uppercase ;
+}
+nav ul  {
+    margin-left: auto;
+}
+
+
+.navbar-nav >li >a{
+color: var(--primary-white) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-top:0.18 solid var(--primary-orange) ;
+}
+
+.bg{
+    height: 600px;
+    background-color: black;
+}
+
+.star{
+    justify-content: center;
+    display: flex;
+}
+.sty{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.styleshow{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    
+
+}
+
+.d-block{
+    height: 600px;
+}
+
+.home-page {
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 600px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back{
+  
+    width:100%;
+    height:600;
+    display:'flex';
+    justify-content: center;
+    margin-top: 160px;
+    
+
+   
+    
+}
+.st{
+    margin-left: auto;
+}
+.wi{
+    height: 100px;
+    width: 300px;
+}
+.stylelogin{
+
+   justify-content: center;
+   display: flex;
+   gap: 10%;
+}
+.test{
+
+    justify-content: center;
+   
+    gap: 100px;
+}
+.test1{
+    
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    padding-top: 100px;
+}
+.stylebox2margin{
+
+
+    justify-content: center;
+
+    display: flex;
+    
+    margin-top: 10px;
+    gap:4%;
+   }
+
+.parent{
+
+display: flex;
+    justify-content: center;
+    
+    
+    
+   
+   }
+.stylebox{
+
+
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ gap:4%;
+
+}
+.stylebox1{
+   
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+   
+   }
+
+   .br{
+    justify-content: center;
+    display: flex;
+ 
+   }
